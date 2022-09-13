@@ -1,0 +1,71 @@
+body{
+    color: white;
+    /*-----------
+    background-image:url(./img/text.jpg);/*imagen subida dentro de la carpeta del proyecto*/
+    background-repeat: no-repeat;/*para que no re repita la imagen*/
+    background-size: cover;/*para que agarre la imagen toda la pagina*/
+    /*Para acomodar la imagen donde yo quiera
+    background-position: right center;*/
+    -----*/
+
+
+
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,752201+31,752201+31,8c3310+72,bf6e4e+100 */
+background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #752201 31%, #752201 31%, #8c3310 72%, #bf6e4e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#752201 31%,#752201 31%,#8c3310 72%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#752201 31%,#752201 31%,#8c3310 72%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+
+
+/*Sacado  de internet*/
+
+
+
+
+
+}
+
+/*Tipografias*/
+-------------------------------------------------------------
+/*se puede descargar la tipografia, agregarla a la carpeta y llamarla asi
+@font-face {
+    font-family: letron;
+    src: url("letron.tff");
+}
+body{
+    font-family: "letron";
+}
+-------------------------------------------------------------
+
+O se puede usar una font directo de internet
+*/
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+h1, h2, h3{
+    font-family: 'Silkscreen', cursive;
+    
+}
+
+p{
+    padding: 20px;
+    margin: 10px;/*si no especifico que margen, usa el mismo para los 4*/
+    width: 500px;
+    height: 100px; /*con esto se superpone el contenido de la caja*/
+    overflow: auto; /*scrool y auto ponen barras de navegacion*/
+    border: white dotted 3px; /*especifico color, tipo y tamaño*/
+}
+
+.p2{
+    padding: 20px;
+    margin: 10px;/*si no especifico que margen, usa el mismo para los 4*/
+    width: 500px;
+    height: 100px; /*con esto se superpone el contenido de la caja*/
+    overflow: auto; /*scrool y auto ponen barras de navegacion*/
+    border: rgb(179, 202, 137) dashed 8px; /*especifico color, tipo y tamaño*/
+
+}
